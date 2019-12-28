@@ -1,0 +1,39 @@
+{
+  "name": "suframe/sunny",
+  "description": "sunny-ngrok for thinkphp",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "qian",
+      "email": "330576744@qq.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "suframe\\sunny\\": "src"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  },
+  "extra": {
+    "think": {
+      "services": [
+        "suframe\\sunny\\Service"
+      ],
+      "config": {
+        "thinkAdmin": "src/config/sunny.php"
+      }
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "topthink/think-view": "^1.0",
+    "suframe/form": "^1.0",
+    "topthink/think-migration": "^3.0"
+  },
+  "require-dev": {
+    "swoole/ide-helper": "@dev"
+  }
+}
