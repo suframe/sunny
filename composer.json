@@ -19,7 +19,7 @@
         "suframe\\sunny\\Service"
       ],
       "config": {
-        "thinkAdmin": "src/config/sunny.php"
+        "sunny": "src/config/sunny.php"
       }
     }
   },
