@@ -29,5 +29,9 @@ clientid => '上面创建的隧道id',
 php think sunny
 # 或者运行原始脚本
 php vendor/suframe/sunny/src/sunny.php
+#后台运行
+setsid php think sunny &
+# 关闭后台进程
+ps -ef | grep 'php think sunny' | grep -v grep | cut -c 9-15 | xargs kill -9
 ```
 访问你隧道绑定的或者赠送的域名即可. 开始愉快的开发吧
