@@ -27,5 +27,7 @@ clientid => '上面创建的隧道id',
 > 运行前请先启动你的项目保证本地可访问，否则转发无法接受数据
 ```
 php think sunny
+# 或者运行原始脚本
+php vendor/suframe/sunny/src/sunny.php
 ```
 访问你隧道绑定的或者赠送的域名即可. 开始愉快的开发吧
