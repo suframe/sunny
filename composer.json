@@ -11,10 +11,7 @@
   "autoload": {
     "psr-4": {
       "suframe\\sunny\\": "src"
-    },
-    "files": [
-      "src/helpers.php"
-    ]
+    }
   },
   "extra": {
     "think": {
@@ -26,14 +23,6 @@
       }
     }
   },
-  "minimum-stability": "dev",
-  "prefer-stable": true,
   "require": {
-    "topthink/think-view": "^1.0",
-    "suframe/form": "^1.0",
-    "topthink/think-migration": "^3.0"
-  },
-  "require-dev": {
-    "swoole/ide-helper": "@dev"
   }
 }
